@@ -1,11 +1,21 @@
-export interface Message {
+export interface ChatMessage {
   id: string;
-  role: 'user' | 'assistant';
+  role: "user" | "model";
   content: string;
-  timestamp: number;
+  timestamp: string;
 }
 
-export interface Chat {
-  id: string;
-  messages: Message[];
+export interface HealthStatus {
+  status: string;
+  timestamp: string;
+  apiKeyConfigured: boolean;
+  aiConnected: boolean;
+}
+
+export interface ApiEndpointDoc {
+  method: "GET" | "POST";
+  path: string;
+  description: string;
+  payload?: string;
+  response: string;
 }

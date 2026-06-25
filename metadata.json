@@ -1,0 +1,6 @@
+{
+  "name": "Nova AI Assistant",
+  "description": "A sleek, professional full-stack AI Assistant workspace built with React, Tailwind, and Node.js (Express), powered by Google Gemini AI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

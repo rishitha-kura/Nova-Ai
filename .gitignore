@@ -1,1 +1,12 @@
+<<<<<<< HEAD
 node_modules
+=======
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+>>>>>>> 31d10736a4a3e28cd2eeaa3307d815cac8b13f04

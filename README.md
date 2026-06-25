@@ -8,7 +8,7 @@ A modern full-stack AI Assistant platform built with React, TypeScript, Node.js,
 
 Add your deployed Render URL after deployment:
 
-https://your-render-url.onrender.com
+https://nova-ai-vmp9.onrender.com/
 
 ---
 
